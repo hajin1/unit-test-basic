@@ -34,7 +34,7 @@ describe('Calculator', () => {
         expect(calculator.value).toBe(3);
     });
 
-    test('add > 100 error', () => {
+    test('add 함수는 결과값이 100 이상이면 에러를 발생시킵니다.', () => {
         calculator.set(10);
         expect(() => calculator.add(91)).toThrow(Error);
     });
