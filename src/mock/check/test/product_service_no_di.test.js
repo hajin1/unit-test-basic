@@ -34,5 +34,5 @@ describe('ProductService', () => {
     it('test', async () => {
         const items = await productService.fetchAvailableItems();
         expect(fetchItems).toHaveBeenCalledTimes(1);
-    })
+    });
 })
